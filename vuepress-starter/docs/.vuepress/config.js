@@ -5,11 +5,11 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'NSCaptcha',
+  description: 'A .NET library for easy CAPTCHA integration',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: 'images/NCaptcha.png',
 
     navbar: ['/', '/get-started'],
   }),
