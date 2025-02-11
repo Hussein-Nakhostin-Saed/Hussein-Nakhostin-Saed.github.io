@@ -15,28 +15,31 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        NSCaptcha is designed to be incredibly easy to install and use, 
+        allowing you to quickly integrate it into your projects.
+         Just a few lines of code are all it takes to enhance your site's security.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on Security, Not Complexity',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        NSCaptcha empowers you to protect your site against bots and spam without
+         requiring specialized security knowledge. We've simplified the complexities
+          of web security so you can focus on your site's content.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'The Power of Customization',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        NSCaptcha is fully customizable. You can tailor the CAPTCHA's appearance 
+        to match your site's design, use your preferred fonts and colors,
+         and even adjust its difficulty level.
       </>
     ),
   },
