@@ -33,8 +33,11 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="NSCaptcha is a library (or more accurately, a set of tools and services) 
+      designed to protect websites and applications from bots and automated attacks by
+       implementing CAPTCHA (Completely Automated Public Turing test to tell 
+       Computers and Humans Apart) challenges <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

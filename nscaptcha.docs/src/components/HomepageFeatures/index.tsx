@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/easy-to-use.svg').default,
     description: (
       <>
         NSCaptcha is designed to be incredibly easy to install and use, 
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Focus on Security, Not Complexity',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/focus-on-security-not-complexity.svg').default,
     description: (
       <>
         NSCaptcha empowers you to protect your site against bots and spam without
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'The Power of Customization',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/the-power-of-customization.svg').default,
     description: (
       <>
         NSCaptcha is fully customizable. You can tailor the CAPTCHA's appearance 

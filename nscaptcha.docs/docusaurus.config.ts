@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'NSCaptcha',
   tagline: 'A .NET library for easy CAPTCHA integration',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/nscaptcha-docs-logo-Photoroom.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -80,7 +80,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Hussein-Nakhostin-Saed/NSCaptcha',
           label: 'GitHub',
           position: 'right',
         },
@@ -104,27 +104,15 @@ const config: Config = {
             {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
+            }
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Hussein-Nakhostin-Saed/NSCaptcha',
             },
           ],
         },
