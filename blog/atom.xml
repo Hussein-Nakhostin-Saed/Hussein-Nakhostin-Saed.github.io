@@ -1,109 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-site.example.com/blog</id>
     <title>NSCaptcha Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-04-01T16:22:01.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/blog"/>
     <subtitle>NSCaptcha Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/img/nscaptcha-docs-logo-Photoroom.png</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[From Turing's Test to Web Security via CAPTCHA]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/From Turing's Test to Web Security via CAPTCHA</id>
+        <link href="https://your-docusaurus-site.example.com/blog/From Turing's Test to Web Security via CAPTCHA"/>
+        <updated>2025-04-01T16:22:01.930Z</updated>
+        <summary type="html"><![CDATA[The Ghost in the Machine: Tracing the Turing Test to CAPTCHA-Secured Web Applications]]></summary>
+        <content type="html"><![CDATA[<p>The Ghost in the Machine: Tracing the Turing Test to CAPTCHA-Secured Web Applications</p>
+<p>The relentless march of artificial intelligence has....</p>
+<p>The relentless evolution of <strong>artificial intelligence (AI)</strong> has ignited fundamental inquiries into the very definition of intelligence. Among the most influential thought experiments in this discourse stands the <strong>Turing Test</strong>. Conceived by the brilliant <strong>Alan Turing</strong>, this seemingly simple test continues to fuel debate and inspire innovation, extending its reach into the realm of everyday online security through mechanisms like <strong>CAPTCHA</strong>. This article explores the essence of the Turing Test, its historical significance, and its surprising connection to modern <strong>web security</strong>, culminating in the introduction of <strong>nscaptcha</strong>, a robust <strong>.NET NuGet package</strong> designed to fortify your applications with effective <strong>CAPTCHA implementation</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-understanding-the-turing-test-defining-machine-intelligence-through-conversation">1. Understanding the Turing Test: Defining Machine Intelligence Through Conversation<a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#1-understanding-the-turing-test-defining-machine-intelligence-through-conversation" class="hash-link" aria-label="Direct link to 1. Understanding the Turing Test: Defining Machine Intelligence Through Conversation" title="Direct link to 1. Understanding the Turing Test: Defining Machine Intelligence Through Conversation">​</a></h2>
+<p>Proposed in <strong>Alan Turing's</strong> groundbreaking 1950 paper "Computing Machinery and Intelligence," the <strong>Turing Test</strong> offers a pragmatic approach to the question of machine intelligence. Instead of grappling with abstract definitions of "thinking," Turing proposed an "imitation game."</p>
+<p>This game involves three participants: a human evaluator (the interrogator), a human respondent, and a machine respondent. The evaluator engages in natural language conversations with both, unaware of which is which. If the evaluator cannot reliably distinguish the machine from the human based on their conversational responses, the machine is considered to have passed the <strong>Turing Test</strong>.</p>
+<p>Key takeaway: The <strong>Turing Test</strong> focuses solely on a machine's ability to exhibit human-like <em>verbal</em> behavior, not physical capabilities or internal states.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-a-historical-perspective-the-origins-of-the-turing-test">2. A Historical Perspective: The Origins of the Turing Test<a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#2-a-historical-perspective-the-origins-of-the-turing-test" class="hash-link" aria-label="Direct link to 2. A Historical Perspective: The Origins of the Turing Test" title="Direct link to 2. A Historical Perspective: The Origins of the Turing Test">​</a></h2>
+<p>The <strong>Turing Test</strong> emerged during a period of intense interest in the potential of early computers. <strong>Alan Turing</strong>, a pivotal figure in <strong>computer science</strong> and <strong>AI</strong>, sought a tangible benchmark for assessing machine intelligence. His seminal paper not only introduced the test but also addressed potential counterarguments, demonstrating his remarkable foresight.</p>
+<p>While a definitive, universally accepted passing of the <strong>Turing Test</strong> remains elusive, the Loebner Prize provides a platform for annual competitions where programs attempt to fool human judges in limited conversational settings. These contests underscore the ongoing advancements in <strong>natural language processing (NLP)</strong> and the inherent challenges in achieving truly human-like dialogue.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-alan-turing-the-visionary-behind-the-test">3. Alan Turing: The Visionary Behind the Test<a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#3-alan-turing-the-visionary-behind-the-test" class="hash-link" aria-label="Direct link to 3. Alan Turing: The Visionary Behind the Test" title="Direct link to 3. Alan Turing: The Visionary Behind the Test">​</a></h2>
+<p><strong>Alan Mathison Turing (1912-1954)</strong> was a British mathematician, logician, cryptanalyst, and computer scientist whose contributions laid the theoretical foundation for modern computing. Revered as the father of <strong>artificial intelligence</strong>, Turing's work during World War II in breaking the Enigma code was instrumental.</p>
+<p>Beyond the <strong>Turing Test</strong>, his concept of the <strong>Turing machine</strong> remains a cornerstone of theoretical computer science. Turing's intellectual legacy continues to shape the digital age, and the <strong>Turing Test</strong> stands as a testament to his innovative approach to understanding intelligence.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-the-inverse-relationship-connecting-the-turing-test-and-captcha">4. The Inverse Relationship: Connecting the Turing Test and CAPTCHA<a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#4-the-inverse-relationship-connecting-the-turing-test-and-captcha" class="hash-link" aria-label="Direct link to 4. The Inverse Relationship: Connecting the Turing Test and CAPTCHA" title="Direct link to 4. The Inverse Relationship: Connecting the Turing Test and CAPTCHA">​</a></h2>
+<p>Interestingly, the <strong>Turing Test</strong> and <strong>CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart)</strong> share a common objective: distinguishing humans from machines. However, their methodologies are inverted.</p>
+<p>The <strong>Turing Test</strong> aims to determine if a machine can <em>imitate</em> a human convincingly. <strong>CAPTCHA</strong>, conversely, presents tasks designed to be easily solvable by humans but challenging for current <strong>AI</strong> algorithms. These tasks often involve deciphering distorted text, identifying objects in images, or solving simple visual or cognitive puzzles. The primary purpose of <strong>CAPTCHA</strong> is to prevent malicious automated bots from engaging in activities like spamming, fake account creation, and denial-of-service attacks.</p>
+<p>In essence, <strong>CAPTCHA</strong> leverages the present limitations of <strong>AI</strong> in areas where human perception and cognition still hold a significant advantage, acting as a practical "reverse <strong>Turing Test</strong>" to secure online interactions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-bridging-the-security-gap-captcha-and-the-role-of-nscaptcha">5. Bridging the Security Gap: CAPTCHA and the Role of <code>nscaptcha</code><a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#5-bridging-the-security-gap-captcha-and-the-role-of-nscaptcha" class="hash-link" aria-label="Direct link to 5-bridging-the-security-gap-captcha-and-the-role-of-nscaptcha" title="Direct link to 5-bridging-the-security-gap-captcha-and-the-role-of-nscaptcha">​</a></h2>
+<p>As <strong>web applications</strong> become increasingly sophisticated and targets for automated threats, the necessity for robust and user-friendly <strong>CAPTCHA solutions</strong> becomes critical. This is where <strong>nscaptcha</strong>, a powerful and efficient <strong>NuGet package for the .NET framework</strong>, plays a vital role.</p>
+<p><strong>nscaptcha</strong> empowers <strong>.NET developers</strong> to seamlessly integrate <strong>CAPTCHA</strong> functionality into their applications. By presenting challenges that are straightforward for humans but difficult for bots to overcome, <strong>nscaptcha</strong> effectively protects your <strong>web forms</strong>, registration processes, login pages, and other sensitive areas from automated abuse.</p>
+<p>Think of <strong>nscaptcha</strong> as a modern digital gatekeeper, performing a swift "reverse <strong>Turing Test</strong>" to ensure that only legitimate human users gain access. Just as the original <strong>Turing Test</strong> explores the boundaries of <strong>AI</strong> by questioning if machines can convincingly mimic humans, <strong>nscaptcha</strong> relies on the current disparities between human and machine capabilities in specific cognitive tasks.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-enhance-your-net-security-with-nscaptcha-a-modern-captcha-solution">6. Enhance Your .NET Security with <code>nscaptcha</code>: A Modern CAPTCHA Solution<a href="https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA#6-enhance-your-net-security-with-nscaptcha-a-modern-captcha-solution" class="hash-link" aria-label="Direct link to 6-enhance-your-net-security-with-nscaptcha-a-modern-captcha-solution" title="Direct link to 6-enhance-your-net-security-with-nscaptcha-a-modern-captcha-solution">​</a></h2>
+<p>Integrating <strong>nscaptcha</strong> into your <strong>.NET projects</strong> offers several significant benefits for <strong>web security</strong>:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li><strong>Robust Bot Protection:</strong> Effectively blocks automated bots, mitigating spam, fraudulent submissions, and other malicious activities that can compromise your <strong>web application</strong>.</li>
+<li><strong>Improved User Experience (UX):</strong> Designed with user-friendliness in mind, minimizing friction for legitimate human users and ensuring a smoother interaction with your <strong>website</strong>.</li>
+<li><strong>Seamless .NET Integration:</strong> As a dedicated <strong>NuGet package</strong> for the <strong>.NET framework</strong>, <strong>nscaptcha</strong> integrates effortlessly into your existing <strong>ASP.NET Core</strong> and <strong>ASP.NET MVC</strong> applications.</li>
+<li><strong>Highly Customizable:</strong> Offers various customization options to tailor the appearance and behavior of the <strong>CAPTCHA</strong> to align with your application's design and specific security requirements.</li>
+<li><strong>Performance Optimized:</strong> Engineered for efficiency, ensuring minimal impact on your <strong>web application's</strong> loading times and overall performance.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://your-docusaurus-site.example.com/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<p>By implementing <strong>nscaptcha</strong>, you are not just adding a security measure; you are leveraging the fundamental principles of distinguishing humans from machines, a concept deeply rooted in the legacy of <strong>Alan Turing's</strong> groundbreaking work. Secure your <strong>.NET web applications</strong> effectively and provide a safer online environment for your users with <strong>nscaptcha</strong>.</p>
+<p><strong>Ready to implement a modern and effective CAPTCHA solution in your .NET projects?</strong></p>
+<ul>
+<li><strong><a href="https://www.nuget.org/packages/NSCaptcha" target="_blank" rel="noopener noreferrer">Link to the nscaptcha NuGet Package Page</a></strong></li>
+<li><strong><a href="https://hussein-nakhostin-saed.github.io/" target="_blank" rel="noopener noreferrer">Link to nscaptcha Documentation and Usage Guide</a></strong></li>
+<li><strong><a href="https://github.com/Hussein-Nakhostin-Saed/NSCaptcha" target="_blank" rel="noopener noreferrer">Link to the nscaptcha GitHub Repository</a></strong></li>
+</ul>
+<p>Protect your web applications today with <strong>nscaptcha</strong> and embrace a smarter approach to online security, inspired by the enduring insights of the <strong>Turing Test</strong>.</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Hussein Nakhostin Saed</name>
+            <uri>https://github.com/Hussein-Nakhostin-Saed</uri>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Artificial Intelligence" term="Artificial Intelligence"/>
+        <category label="Turing Test" term="Turing Test"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Artificial Intelligence" term="Artificial Intelligence"/>
+        <category label="Bots" term="Bots"/>
+        <category label="History of AI" term="History of AI"/>
+        <category label="Alan Turing" term="Alan Turing"/>
+        <category label="Bot Detection" term="Bot Detection"/>
+        <category label="Spam Prevention" term="Spam Prevention"/>
+        <category label="Bot Attacks" term="Bot Attacks"/>
+        <category label="Web Application Security" term="Web Application Security"/>
+        <category label="AI in Security" term="AI in Security"/>
+        <category label="Evolution of CAPTCHA" term="Evolution of CAPTCHA"/>
+        <category label="CAPTCHA Challenges" term="CAPTCHA Challenges"/>
+        <category label="AI-Powered Bot Detection" term="AI-Powered Bot Detection"/>
+        <category label="User Behavior" term="User Behavior"/>
+        <category label="Future of Web Security" term="Future of Web Security"/>
+        <category label="Future of Turing Test" term="Future of Turing Test"/>
     </entry>
 </feed>

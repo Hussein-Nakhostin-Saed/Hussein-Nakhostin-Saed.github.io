@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknscaptcha_docs=self.webpackChunknscaptcha_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"From Turing\'s Test to Web Security via CAPTCHA","permalink":"/blog/From Turing\'s Test to Web Security via CAPTCHA","unlisted":false,"date":"2025-04-01T16:22:01.930Z"}]}')}}]);
