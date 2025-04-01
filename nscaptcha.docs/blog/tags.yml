@@ -1,19 +1,90 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+1:
+  label: Artificial Intelligence
+  permalink: /ai
+  description: Articles and content related to artificial intelligence, its core concepts, diverse applications, and ongoing advancements.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+2:
+  label: Turing Test
+  permalink: /turing-test
+  description: In-depth articles and resources concerning the Turing Test, its historical context, operational principles, critical analyses, and enduring significance.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+3:
+  label: Web Security
+  permalink: /web-security
+  description: Articles and comprehensive guides addressing website security, prevalent security threats, effective countermeasures, and industry best practices.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+4:
+  label: Artificial Intelligence
+  permalink: captcha
+  description: Articles and detailed explanations of CAPTCHA technology, its various types, underlying mechanisms, and the evolving challenges associated with its implementation.
+
+5:
+  label: Bots
+  permalink: bots
+  description: Articles and informative content pertaining to internet bots, encompassing both malicious and beneficial types, along with methodologies for their identification.
+
+6:
+  label: History of AI
+  permalink: history-of-ai
+  description: Content exploring the historical trajectory and foundational developments within the field of artificial intelligence.
+
+7:
+  label: Alan Turing
+  permalink: alan-turing
+  description: Articles and biographical information detailing the life and seminal contributions of
+   Alan Turing, a key figure in the establishment of modern computer science and artificial intelligence.
+
+8:
+  label: Bot Detection
+  permalink: bot-detection
+  description: Articles and methodologies employed for the identification and detection of malicious automated bots on websites.
+
+9:
+  label: Spam Prevention
+  permalink: spam-prevention
+  description: Strategies and technical approaches utilized to prevent the dissemination of unsolicited email and unwanted content on websites.
+
+10:
+  label: Bot Attacks
+  permalink: bot-attacks
+  description: Informative content and descriptions of various attack vectors executed by malicious bots targeting web applications and websites.
+
+11:
+  label: Web Application Security
+  permalink: web-application-security
+  description: Content addressing the security of web-based applications and the strategies for effectively protecting them against vulnerabilities.
+
+12:
+  label: AI in Security
+  permalink: ai-in-security
+  description: Applications of artificial intelligence in enhancing website security measures and the detection of sophisticated threats.
+
+13:
+  label: Evolution of CAPTCHA
+  permalink: evolution-of-captcha
+  description: An examination of the changes and advancements in CAPTCHA technology throughout its development.
+
+14:
+  label: CAPTCHA Challenges
+  permalink: captcha-challenges
+  description: Discussion and analysis of the inherent difficulties and limitations associated with the implementation and effectiveness of CAPTCHA.
+
+15:
+  label: AI-Powered Bot Detection
+  permalink: ai-powered-bot-detection
+  description: Analysis of user interactions and patterns to discern unusual activities and potential bot-driven traffic.
+
+16:
+  label: User Behavior
+  permalink: user-behavior
+  description: Applications of artificial intelligence in enhancing website security measures and the detection of sophisticated threats.
+
+17:
+  label: Future of Web Security
+  permalink: future-of-web-security
+  description: Predictions and emerging trends in the landscape of web security and the ongoing efforts to counter evolving threats.
+
+18:
+  label: Future of Turing Test
+  permalink: future-of-turing-test
+  description: Discussion and speculation regarding the continuing relevance and potential adaptations of the Turing Test in the context of future artificial intelligence.

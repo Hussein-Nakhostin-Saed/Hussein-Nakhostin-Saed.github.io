@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+HusseinNakhostinSaed:
+  name: Hussein Nakhostin Saed
+  title: Full Stack Developer
+  url: https://github.com/Hussein-Nakhostin-Saed
+  image_url: https://avatars.githubusercontent.com/u/139260023?s=400&v=4
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    linkedin: https://www.linkedin.com/in/hussein-nakhostin-saed-288b3b277/
+    github: https://github.com/Hussein-Nakhostin-Saed
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+# slorber:
+#   name: Sébastien Lorber
+#   title: Docusaurus maintainer
+#   url: https://sebastienlorber.com
+#   image_url: https://github.com/slorber.png
+#   page:
+#     # customize the url of the author page at /blog/authors/<permalink>
+#     permalink: '/all-sebastien-lorber-articles'
+#   socials:
+#     x: sebastienlorber
+#     linkedin: sebastienlorber
+#     github: slorber
+#     newsletter: https://thisweekinreact.com
