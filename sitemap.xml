@@ -1,1 +1,213 @@
-<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"><url><loc>https://your-docusaurus-site.example.com/blog</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/archive</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/authors</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/authors/hussein-nakhostin-saed</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/From%20Turing's%20Test%20to%20Web%20Security%20via%20CAPTCHA</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/ai</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/ai-in-security</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/ai-powered-bot-detection</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/alan-turing</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/bot-attacks</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/bot-detection</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/bots</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/captcha</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/captcha-challenges</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/evolution-of-captcha</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/future-of-turing-test</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/future-of-web-security</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/history-of-ai</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/spam-prevention</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/turing-test</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/user-behavior</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/web-application-security</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/blog/tags/web-security</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/markdown-page</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/captcha-cookie-options</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/captcha-options</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/category/docker</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/customization</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/docker/font-integration</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/get-started</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/i-captcha-token-cache</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/i-captcha-token-protector</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/i-captcha-token-serializer</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/docs/intro</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://your-docusaurus-site.example.com/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- ============================== -->
+  <!-- Home & Main Pages -->
+  <!-- ============================== -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/404.html</loc>
+    <priority>0.1</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/markdown-page/</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ============================== -->
+  <!-- Blog -->
+  <!-- ============================== -->
+  <!-- Blog Home & Main Post -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/archive/</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/From%20Turing%27s%20Test%20to%20Web%20Security%20via%20CAPTCHA/</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Blog Author Pages -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/authors/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/authors/hussein-nakhostin-saed/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Blog Tag Pages -->
+  <!-- AI Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/ai/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/ai-in-security/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/ai-powered-bot-detection/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- Turing & Future Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/alan-turing/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/evolution-of-captcha/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/future-of-turing-test/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/future-of-web-security/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/history-of-ai/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CAPTCHA Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/captcha/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/captcha-challenges/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Bot Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/bot-attacks/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/bot-detection/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/bots/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Spam & User Behavior Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/spam-prevention/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/turing-test/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/user-behavior/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Web Security Tags -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/web-application-security/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/blog/tags/web-security/</loc>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- ============================== -->
+  <!-- Documentation (NSCaptcha) -->
+  <!-- ============================== -->
+  <!-- Main Docs -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/captcha-cookie-options/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/captcha-options/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/customization/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/get-started/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/i-captcha-token-cache/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/i-captcha-token-protector/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/i-captcha-token-serializer/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/intro/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Docs Categories -->
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/category/docker/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://hussein-nakhostin-saed.github.io/docs/docker/font-integration/</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
